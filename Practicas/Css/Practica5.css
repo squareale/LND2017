@@ -1,0 +1,23 @@
+h1 {
+    color:red;
+}
+
+p  {
+   color:magenta;
+}
+
+strong {
+    color:purple;
+}
+
+em {
+    color:green;
+}
+
+li {
+    color:yellow;
+}
+
+ul {
+    background-color:grey;
+}
