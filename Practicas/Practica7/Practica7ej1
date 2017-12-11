@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<body>
+<form action="" method="post">
+    <fieldset>
+    <legend>Informaci&oacute;n personal</legend>
+    <div>   
+    <label name="Apellidos">Apellidos:</label>
+    <input type="text" id="Apellidos">
+    </div>
+        <div>
+        <label name="Nombre">Nombre:</label>
+        <input type="text" id="Nombre">
+        </div>
+        <div>
+        <label name="Direccion">Direcci&oacute;n:</label>
+            <input type="text" id="Direccion">
+        </div>
+    </fieldset>
+    <fieldset>
+    <legend>Sistema Operativo</legend>
+    <div>
+        <select name="OS">
+        <option value="1">GNU/Linux</option>
+        <option value="2">Microsoft Windows</option>
+        <option value="3">Mac OsX</option>
+        </select>
+    </div>
+    </fieldset>
+    <fielset>
+    <legend>Ordenador personal</legend>
+    <p>¿Tienes ordenador en tu casa?</p>
+        <div>
+        <br>
+        <label name="SiNo">Sí</label>
+        <input type="radio" name="SiNo" id="Sí" value="Si">
+        <br>
+        <label name="SiNo">No</label>
+        <input type="radio" name="SiNo" id="No" value="No">
+        </div>
+        <p>Si tienes ordenador describe sus características principales:</p>
+        <textarea rows="9" cols="45">
+        </textarea>
+        <div class="button">
+            <br>
+        <button type="submit">Enviar</button>        
+        <button type="reset">Borrar</button>
+        </div>
+    </fielset>
+</form>    
+</body>
+</html>
