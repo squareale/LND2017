@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+</head>
+<body>
+<form action="" method="post">
+<fielset>
+<legend>Información personal:</legend>    
+<div>
+<label name="Nombre">Nombre:</label>
+    <br>
+    <input type="text" id="Nombre" value="Nombre completo" required>
+    <br>
+    <br> 
+    <label name="Clave">Clave:</label>
+    <br>
+    <input type="password" id="Clave">
+    <br>
+    <br>
+    <label name="Edad">Edad (Mayor que 18):</label>
+    <br>
+    <input type="number" count="1" min="18">
+    <br>
+    <br>
+    <label name="Correo">Correo-e:</label>
+    <br>
+    <input type="email" id="Correo">
+    <br>
+    <br>
+    <label name="Pagina">Página Personal:</label>
+    <br>
+    <input type="url" id="Pagina">
+    <div class="button">
+        <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Pulsa aquí</button>
+    </div>
+    
+</div>   
+
+    
+</fielset>    
+    
+    
+    
+    
+    
+    
+    
+</form>
+<div>
+</div>
+</body>
